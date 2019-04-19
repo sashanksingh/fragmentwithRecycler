@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BlankFragment"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_margin="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="I am fragment"
+        android:textSize="24dp"
+      />
+
+    <TextView
+        android:layout_margin="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="My name is here"
+        android:textSize="24dp"
+        android:id="@+id/name"/>
+    <TextView
+        android:layout_margin="16dp"
+        tools:text="My faculty is here"
+        android:textSize="24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/faculty"/>
+    <TextView
+        android:layout_margin="16dp"
+        tools:text="My number is here"
+        android:textSize="24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/number"/>
+    <TextView
+        android:layout_margin="16dp"
+        tools:text="My address is here"
+        android:textSize="24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/address"/>
+
+
+</LinearLayout>
